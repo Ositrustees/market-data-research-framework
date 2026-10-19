@@ -76,9 +76,9 @@ The exact workflow can vary depending on the research question.
 
 The purpose is to preserve the inputs that could materially change the interpretation.
 
-## Documentation
+## Documentation Status
 
-This repository includes focused documentation for:
+The framework currently includes:
 
 - [Market Data Comparison](market-data-comparison.md)
 - [Source Context](source-context.md)
@@ -86,43 +86,50 @@ This repository includes focused documentation for:
 - [Research Note Template](research-note-template.md)
 - [Corporate Information](corporate-information.md)
 
-```text
-Research question:
-Instrument:
-Market / exchange:
-Currency:
-Source:
-Observation time:
-Time zone:
-Chart interval:
-Session:
-Adjustment setting:
-Observation:
-Possible explanation:
-What still needs verification: ```
-
-How to Use This Framework
-This repository is designed as a practical reference for structured market-data research.
-
-You can use the documents individually or as part of a broader workflow:
-1. Define the research question.
-2. Compare the relevant market-data inputs.
-3. Preserve source and timestamp context.
-4. Record chart settings and adjustment methods.
-5. Separate the observation from the explanation.
-6. Document what still needs verification.
-The framework is intended to make analytical work easier to review, reproduce and challenge.
-Documentation Status
-The framework currently includes:
-- Market Data Comparison
-- Source Context
-- Chart Settings
-- Research Note Template
-- Corporate Information
 Additional documentation may be added as the research methodology develops.
-Research. Compare. Verify.
+
+## Framework Principles
+
+The Ositrustees Market Data Research Framework follows several simple principles:
+
+**Preserve the source.**  
+Keep the source connected to the observation so the information can be reviewed later.
+
+**Preserve the time context.**  
+Record timestamps and time zones clearly enough that another researcher can reconstruct the observation.
+
+**Preserve the chart conditions.**  
+Intervals, sessions and adjustment settings can materially affect what appears on screen.
+
+**Separate observation from explanation.**  
+Document what is visible before deciding why it happened.
+
+**Preserve uncertainty.**  
+If a methodology, source setting or adjustment rule cannot be confirmed, record that uncertainty rather than replacing it with an assumption.
+
+## Reproducibility
+
+A useful research record should allow another researcher to understand:
+
+- what was being investigated
+- which instrument or dataset was used
+- where the information came from
+- when the observation was made
+- which settings affected the view
+- what was directly observed
+- what was interpreted
+- what still requires verification
+
+The goal is not absolute certainty.
+
+The goal is a research path that can be reviewed, repeated and challenged.
+
+## Research. Compare. Verify.
+
 Good research should leave a clear trail.
 
 The source, timing, chart settings, corporate context and remaining uncertainty should stay connected to the observation they helped produce.
+
+A structured research record makes it easier to revisit an earlier conclusion, compare sources and understand why two market-data views may differ.
 
 This repository contains educational research documentation only and does not provide investment advice.
