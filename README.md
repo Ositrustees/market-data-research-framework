@@ -102,3 +102,38 @@ Adjustment setting:
 Observation:
 Possible explanation:
 What still needs verification:
+
+## How to Use This Framework
+
+This repository is designed as a practical reference for structured market-data research.
+
+You can use the documents individually or as part of a broader workflow:
+
+1. Define the research question.
+2. Compare the relevant market-data inputs.
+3. Preserve source and timestamp context.
+4. Record chart settings and adjustment methods.
+5. Separate the observation from the explanation.
+6. Document what still needs verification.
+
+The framework is intended to make analytical work easier to review, reproduce and challenge.
+
+## Documentation Status
+
+The framework currently includes:
+
+- Market Data Comparison
+- Source Context
+- Chart Settings
+- Research Note Template
+- Corporate Information
+
+Additional documentation may be added as the research methodology develops.
+
+## Research. Compare. Verify.
+
+Good research should leave a clear trail.
+
+The source, timing, chart settings, corporate context and remaining uncertainty should stay connected to the observation they helped produce.
+
+This repository contains educational research documentation only and does not provide investment advice.
